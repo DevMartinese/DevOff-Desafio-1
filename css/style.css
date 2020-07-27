@@ -9,6 +9,7 @@ body {
     grid-auto-flow: dense;
     grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
                    "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
                    "1fr 1fr 1fr 1fr 1fr" 33.33vh;
     grid-gap: 5px;                
 }
@@ -40,5 +41,13 @@ body {
 }
 
 .container .box.j {
+    grid-row: span 2;
+}
+
+.container .box.l {
+    grid-row: span 2;
+}
+
+.container .box.h {
     grid-row: span 2;
 }
